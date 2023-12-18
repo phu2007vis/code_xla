@@ -5,7 +5,7 @@ import torch
 
 class ImproveVideo:
     def __init__(self, model=None, skip=1,size = None,batch = 6,device = "cuda"):
-        self.model = model.to(device)
+        # self.model = model.to(device)
         self.skip = skip
         self.size = size
         self.batch = batch
